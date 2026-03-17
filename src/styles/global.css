@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #f8fafc;
+  color: #1e293b;
+  transition: background 0.3s ease;
+}
+
+.dark body {
+  background: #0f172a;
+  color: #f1f5f9;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
